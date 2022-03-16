@@ -28,12 +28,6 @@ function App() {
           <Route path="/:keyword/:textcolor?/:backgroundcolor?">
             <Keyword />
           </Route>
-          <Route path="">
-
-          </Route>
-          <Route path="/">
-            <h1>Click the Links</h1>
-          </Route>
         </Switch>
       </BrowserRouter>
     </div>
